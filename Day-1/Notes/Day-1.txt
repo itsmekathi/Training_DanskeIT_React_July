@@ -1,0 +1,95 @@
+React:
+-It is a open source library for building UI
+-It is not a framework
+-It is created and maintained by Facebook/Meta
+-It Supports Reusable Code
+-React is Declarative
+-It will Update and render components effectively
+-DOM Updates handled by React
+-React Native is for Mobile APP Development
+-Pre-requisites for React is HTML,CSS,Javascript and ES6/ES7
+-
+Fundamentals
+HTTP
+Routing
+Redux
+Utilities
+
+IDE:
+Visual Studio Code(VS Code)
+
+React-Node JS & NPM
+
+npx create-react-app project-name
+cd project-name
+npm start
+
+PWA Ready
+Progressive
+Web 
+Applications
+
+Public>  index.html  >  index.js  > App.js
+
+Components in React:
+-Components are the part of UI
+-These are building clocks of Any React APP
+-In React Template, the root component is names as 'APP'
+-Components also support Nesting
+-Components can be created with an extension of *.js or *.jsx
+
+1.Functional Components
+
+2.Class Components
+
+
+Functional Components:(rfce)
+-These are simple JavaScript Functions
+-These can optionally receive an Object of Properties (props)
+-These will return HTML as UI (JSX)
+-Functional Components will accept props and returns JSX
+
+Class Component:(rce)
+-These are ES6/7 Classes
+-Class components also recieve Optional Properties(Props) and Return JSX
+-Apart from props, the class components will maintain a internal memory i,e State
+-State is a private memory, which will be maintained for the component and used to describe in UI
+
+
+If we use functional components, we can avoid 'this' keyword
+functional components are simple where as class components are feature rich
+Class components will use complex logics
+class components will provide life cycle hooks
+
+
+JSX:
+-JSX stands for JavaScript XML
+-It is an extension to JavaSCript Language syntax
+-It looks like XML and Code for elements and components
+-JSX tags have tag name,attributes and children similar to HTML and XML
+-React apps can be constructed without JSX also
+-JSX can be transpiles/converts to Pure JavaScript for browser understandabilty
+
+
+Props:
+-Props are the properties passing while rendering the components
+-props are also immutable
+
+
+State:
+-State is a private memory which is immutable
+-State is managed within the component
+-State can be changed
+
+Event Handling:
+--------------
+
+
+SetState:
+-----------
+
+De structuring Props & State:
+-----------------------------
+It is a unpacking of values from arrays or props
+
+
