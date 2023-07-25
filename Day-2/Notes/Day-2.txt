@@ -1,0 +1,53 @@
+[] {}
+
+[6-9]{1}[0-9]{9}
+
+5-20
+
+[A-Za-z]{1}[A-Za-z0-9._]{4,19} 
+[A-Za-z0-9]{15,}
+
+[A-Za-z]{5}[0-9]{4}[A-Za-z]{1}
+
+Passing Methods as Props:
+---------------------------
+
+
+Conditional Rendering:
+---------------------
+
+
+Map in React
+
+Bootstrap:
+npm i --save bootstrap
+
+index.js:
+import '../'
+
+
+Styling React Components/CSS :
+Modules
+
+appstyles.module.css
+
+Basic Form:
+
+{
+"name":test,
+"mobile":test value,
+ 
+
+}
+
+Life Cycle Hooks in React
+Fragments
+Pure vs Normal Components
+Memo Components
+Refs
+Portals in React
+Error Handling
+ROuting
+API -> CRUD Fetch,XMLHttpRequest
+
+
