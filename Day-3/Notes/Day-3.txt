@@ -1,0 +1,123 @@
+Life Cycle:
+
+1.Mouting:
+  When an instance of a component is being created and inserted into the DOM
+	Constructor()
+	static getDerivedStateFromProps()
+	render()
+	componentDidMount()  
+
+2.Updating:
+  When a component is being re-rendering as a result od changes to its                   props/state
+	static getDerivedStateFromProps()
+	shouldComponentUpdate()
+	render()
+	getSnapshotBeforeUpdate()
+	componentDidUpdate()
+
+3.Unmouting:
+  When a component is being removed from the DOM
+	componentWillUnmount()
+
+4.Error Handling:
+  When there is an error during rendering or rendering the children
+	static getDerivedStateFromError()
+	componentDidCatch()
+
+
+Mounting:
+Constructor():
+It is a special function that will get called when a new component is created.
+It will be used to initialize the state and bind the events
+
+static getDerivedStateFromProps():
+When the state of the component depends on changes in props
+We can set the state
+
+render():
+This is the only required method
+Read props & state and returns jsx
+Children component lifecycle methods are also executed
+
+componentDidMount():
+This method will be invoked immediately when render method is executed and children components are rendered
+By using this method we can perform http calls
+
+
+Updating:
+
+static getDerivedStateFromProps():
+This method will get executed for re-render
+
+shouldComponentUpdate(nextProps,nextState):
+This method will decide whether the component should re-render or not
+This will be used for improving the performance
+
+render():
+This is the only required method
+Read props & state and returns jsx
+Children component lifecycle methods are also executed
+
+getSnapshotBeforeUpdate(prevProps,prevState):
+Called right before the changes are going to apply/before inserting into the dom
+Capture some information from the dom before update
+This method should return null or it will return a value...which will be passed as third parameter for next method
+
+componentDidUpdate(prevProps,prevState,snapshot):
+Called after the render is finished its re-render cycles
+
+UnMounting:
+componentWillUnmount():
+This will invoked immediately before a component is unmounted and destroyed
+Cancelling any networks requests,removing eventhandlers
+
+Error Handling:
+When there is an error either during rendering,in a lifecycle method or in constructor
+static getDerivedStateFromError(err)
+componentDidCatch(err,info)
+
+
+Fragments in React:
+-Fragments will group up list of children as a single element without any extra nodes
+React.Fragment
+
+
+Pure Components:
+Pure components will inherit pre-defined class 'PureComponent'
+These will allow components should re-render when there is a change in props/state
+When Pure components are re-render then only its child components will re-render
+Pure components will be used of improving performance
+
+
+Memo Components:
+Memo components are similar to Pure components works with only functional components
+When there is change in props then only these will re-render
+
+
+Refs:
+-Refs are nothing but References
+-These will provides references with dom elements directly
+-These will operate in two-directional
+
+Forward Ref:
+It is a concept of forward ref to child components
+
+Portals in React:
+Portal is way to render children elements into the DOM
+ReactDOM
+
+ErrorHandling:
+
+
+Production Build:
+npm run build
+npm install -g serve
+npx serve -s build
+
+
+Routing:
+React will create SPA
+npm install react-router-dom
+
+www.abc.com
+
