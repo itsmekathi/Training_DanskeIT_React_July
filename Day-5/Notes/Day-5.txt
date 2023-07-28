@@ -1,0 +1,68 @@
+Higher Order Components:
+-----------------------
+
+Redux:
+-----
+-Redux is an open source JavaScript library for managing the state of the application
+-Redux is available for React,Angular,Vue etc,..
+-In order to work with redux following packages/libraries are required
+	npm i redux
+	npm i react-redux
+	npm i redux-thunk
+	npm i redux-devtools-extension
+	Redux Devtools (Chrome Extension)
+
+Store: It is used to store state values
+Reducer: It is a part of the store, which will be used to manage the state values and manage state
+Action:Requests the reducer will be sent from action
+Connect:This module is form 'react-redux' library. It will be useful to access the store
+
+npm i redux react-redux redux-thunk redux-devtools-extension
+
+
+Redux ToolKit:
+--------------
+-It is introduced by team of 'Redux' to solve issues in the redux
+-Configuring a Redux Store is Complicated
+-Requires many packages to build large scale apps
+
+	npm i @reduxjs/toolkit
+	npm i react-redux
+	npm i bootstrap
+
+        npm i @reduxjs/toolkit react-redux bootstrap
+
+Json:
+display-UI
+add cart
+
+
+Axios:
+-It is a JavaScript library for making HTTP Requests from Node Js
+-The Response from AXIOS will be direct json
+
+npm i axios
+
+JWT:
+Java Web Token
+
+Token Based Authentications
+
+
+
+Web API:
+Database-UserId,Pwd
+http://www.abc.com/Users
+
+xhjbuibbhbjkvhvierbfjehngoeigotr-10
+
+
+Unit Testing in React:
+Enzyme
+
+
+LoginId
+Password
+
+success
+-

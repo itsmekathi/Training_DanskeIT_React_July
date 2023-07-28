@@ -1,0 +1,29 @@
+Fetch API:
+-It is modern WEB API for performing async HTTP requests
+-It is an alternative for XMLHttpRequest
+-It was developed based on promises
+-Promise is an object that represets the eventual completion or failure
+
+
+npm i -g json-server
+
+npx json-server --watch db.json --port 3001
+
+XMLHttpRequest()
+
+
+useState:
+-This is a hooks works for only functional components
+-To use this hook, we have to import useState from 'react' library
+-looks very similar to getters and setters in the programming langs
+     const[count,setCount]=useState(0)
+     setCount(1)
+   
+useEffect():
+
+ContextAPI:
+create the context
+provide the value
+consume the value
+
+
